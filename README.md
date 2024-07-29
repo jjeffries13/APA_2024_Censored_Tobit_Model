@@ -1,7 +1,7 @@
 # Beyond the Threshold: Harnessing Censored Data in Student Feedback Systems
 **Jay Jeffries, Justin Andersson, Om Joshi, James Bovaird**
 
-**Teacher Analysis by Students (TABS; shortened form)**
+**Teacher Analysis by Students (TABS) inventory -- shortened form**
 
 The five-point scale includes Strongly disagree (1), Somewhat disagree (2), Neither agree nor disagree (3), Somewhat agree (4), and Strongly agree (5). 
 
