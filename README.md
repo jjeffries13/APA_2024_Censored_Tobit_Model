@@ -21,6 +21,7 @@ Each of the nine item begin with the stem: "*My teacher...*", followed by the it
 
 Naive estimates from a mixed-effect multilevel mondel informed the tobit model priors.
 
+```
 PROC NLMIXED DATA=LONG_DAT XTOL=1E-12 METHOD=GAUSS QPOINTS=100;
  PARMS beta0=38.9918 /* Intercept */
  beta1=1.5503 /* TREATC1 () */
@@ -49,5 +50,6 @@ if SCORE < 45 then
 MODEL SCORE ~ GENERAL(L);
  RANDOM b_0j3 ~ NORMAL(0, sigma3_u) SUBJECT=CID;
 &nbsp;&nbsp;&nbsp;&nbsp;RANDOM b_0j2 ~ NORMAL(0, sigma2_u) SUBJECT=ID(CID);
+```
 
 Code adapted from: <https://stats.oarc.ucla.edu/sas/faq/how-do-i-run-a-random-effect-tobit-model-using-nlmixed/>
