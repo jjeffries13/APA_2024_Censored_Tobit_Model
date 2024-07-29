@@ -1,7 +1,7 @@
 # Beyond the Threshold: Harnessing Censored Data in Student Feedback Systems
-## Jay Jeffries, Justin Andersson, Om Joshi, James Bovaird
+**Jay Jeffries, Justin Andersson, Om Joshi, James Bovaird**
 
-## Teacher Analysis by Students (TABS; shortened form)
+**Teacher Analysis by Students (TABS; shortened form)**
 
 The five-point scale includes Strongly disagree (1), Somewhat disagree (2), Neither agree nor disagree (3), Somewhat agree (4), and Strongly agree (5). 
 
@@ -17,7 +17,7 @@ Each of the nine item begin with the stem: "*My teacher...*", followed by the it
 8. Designs evaluation procedures consistent with course goals
 9. Gives meaningful feedback on assignments
 
-## SAS Code
+**SAS Code**
 
 Naive estimates from a mixed-effect multilevel mondel informed the tobit model priors.
 
