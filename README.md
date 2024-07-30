@@ -21,6 +21,18 @@ Each of the nine item begin with the stem: "*My teacher...*", followed by the it
 
 Naive estimates from a mixed-effect multilevel mondel informed the tobit model priors.
 
+Naive Model Syntax:
+```
+PROC MIXED DATA=LONG_DAT NOCLPRINT;
+	CLASS ID CID;
+	MODEL SCORE=TREATC1 TREATC2 TIMEC1 TIMEC2 TIMEC3 TRXT2 TRXT3 TRXT4 / SOLUTION 
+		DDFM=BW;
+	RANDOM INT / SUBJECT=ID(CID);
+	RANDOM INT / SUBJECT=CID;
+RUN;
+```
+
+Multilevel Tobit Model Syntax:
 ```
 PROC NLMIXED DATA=LONG_DAT XTOL=1E-12 METHOD=GAUSS QPOINTS=100;
  PARMS beta0=38.9918 /* Intercept */
