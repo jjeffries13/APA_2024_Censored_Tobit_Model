@@ -36,14 +36,14 @@ Multilevel Tobit Model Syntax:
 ```
 PROC NLMIXED DATA=LONG_DAT XTOL=1E-12 METHOD=GAUSS QPOINTS=100;
  PARMS beta0=38.9918 /* Intercept */
- beta1=1.5503 /* TREATC1 () */
- beta2=-0.3143 /* TREATC2 () */
- beta3=0.6011 /* TIMEC1 () */
- beta4=0.8252 /* TIMEC2 () */
- beta5=0.9052 /* TIMEC3 () */
- beta6=-0.6072 /* TRXT2 () */
- beta7=-0.3113 /* TRXT3 () */
- beta8=-0.3479 /* TRXT4 () */
+ beta1=1.5503 /* TREATC1 */
+ beta2=-0.3143 /* TREATC2 */
+ beta3=0.6011 /* TIMEC1 */
+ beta4=0.8252 /* TIMEC2 */
+ beta5=0.9052 /* TIMEC3 */
+ beta6=-0.6072 /* TRXT2 */
+ beta7=-0.3113 /* TRXT3 */
+ beta8=-0.3479 /* TRXT4 */
  sigma2_u=33.3459 /* Random ID(CID) intercept */
  sigma3_u=13.2812 /* Random CID intercept */
  sigma2=12.3180; /* Random residual */
