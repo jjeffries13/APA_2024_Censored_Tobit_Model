@@ -1,5 +1,5 @@
 # Beyond the Threshold: Harnessing Censored Data in Student Feedback Systems
-**Jay Jeffries, Justin Andersson, Om Joshi, James Bovaird**
+**Jay Jeffries, Justin Andersson, Om Joshi, James A. Bovaird**
 
 **Teacher Analysis by Students (TABS) inventory -- shortened form**
 
