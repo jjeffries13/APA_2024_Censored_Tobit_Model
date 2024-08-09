@@ -3,7 +3,7 @@
 
 **Teacher Analysis by Students (TABS) inventory -- shortened form**
 
-The response options fo rhte five-point scale includes Strongly disagree (1) to Strongly agree (5).
+The response options for the five-point scale includes Strongly disagree (1) to Strongly agree (5).
 
 Each of the nine item begin with the stem: "*My teacher...*", followed by the item. Below are the nine items in the order they appeared on the survey:
 
